@@ -1,18 +1,17 @@
 public class Car {
-
-    // 屬性
+    public String name;
     public String color;
-    public String number;
-    public int year = 0;
 
-    // 建構子
-    public Car(String inputNumber, String inputColor) {
+    /*
+     * 建構子(跟類別同名稱的方法)
+     * 初始化物件的屬性
+     */
+    public Car(String inputName, String inputColor) {
+        this.name  = inputName;
         this.color = inputColor;
-        this.number = inputNumber;
     }
 
-    // 方法
     public void showCarInfo() {
-        System.out.println("Car number is " + this.number + ". Car color is " + this.color);
+        System.out.println("CarName: " + this.name + ",CarColor: " + this.color);
     }
 }
