@@ -2,6 +2,11 @@ public class Student {
     private String name;
     private int score;
 
+    public Student(String name, int inputScore) {
+        this.setName(name);
+        this.setScore(inputScore);
+    }
+
     public String getName() {
         return this.name;
     }
