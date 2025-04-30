@@ -17,9 +17,11 @@ public class BasicDeclare {
          *
          * boolean: 布林, true/false
          */
+
         // int age = 25;
         // System.out.println(age);
-
+        // long acer = 213454420342094L;
+        // System.out.println(acer);
         // float weight1 = 49.4F;
         // System.out.println(weight1);
 
@@ -48,5 +50,24 @@ public class BasicDeclare {
         // String[] students = {"A1", "A2", "A3"};
         // System.out.println(students[1]);
 
+        int row = 5;
+        char sign = '#';
+        char space = ' ';
+        for(int i = 0; i < row; i++) {
+
+            for (int j = row - i - 1; j > 0 ; j--) {
+
+                System.out.printf("%c",space);
+            }
+
+            for (int k = 0; k <= i * 2; k ++) {
+                System.out.printf("%c",sign);
+            }
+
+            System.out.println();
+        }
+
     }
 }
+
+
