@@ -1,7 +1,10 @@
+package lesson1;
+import lesson1.homework.training.*;
+
 public class DemoClass {
 
     public static void main(String[] args) {
-        // Car tesla = new Car("001", "blue");
+        // Car tesla = new Car("001", "blue");r
         // tesla.showCarInfo();
 
         // Person david = new Person("David", 32, true);
@@ -21,8 +24,8 @@ public class DemoClass {
         //         "Price: " + Clothes.price );
         // }
 
-        Saving mySaving = new Saving("Jeff", 10000 );
-        Saving herSaving = new Saving("Cathy", 12);
+        // Saving mySaving = new Saving("Jeff", 10000 );
+        // Saving herSaving = new Saving("Cathy", 12);
         // mySaving.showBalance();
 
         // System.out.println("Original name is " + mySaving.getAccount());
@@ -33,7 +36,10 @@ public class DemoClass {
         // // herSaving.setAccout("Jenny");
         // System.out.println("The new name is " + herSaving.getAccount());
         
-        herSaving.setBalance("Cathy", true, 3);
-        System.out.println("You now have " + herSaving.getBalance() + " in your bank.");
+        // herSaving.setBalance("Cathy", true, 3);
+        // System.out.println("You now have " + herSaving.getBalance() + " in your bank.");
+        
+        Employee david = new Employee("David");
+        System.out.println(david.getName());
     }
 }
