@@ -1,3 +1,8 @@
+package lesson1;
+
+import basic.Person;
+import lesson1.homework.traning.Employee;
+
 public class DemoClass {
     public static void main(String[] args) {
         // Car c1 = new Car("001","黃色" );
@@ -105,6 +110,29 @@ public class DemoClass {
         // a1.cal(5, 10);
         // a1.cal("長", 3, 2);
         // a1.cal("正", 3, 3);
+
+
+        /*
+         * package 呼叫
+         */
+        // basic.Person p2 = new basic.Person("A2", 0);
+        // System.out.println(p2.getName());
+        // Person p3 = new Person("A3", 0);
+        // System.out.println(p3.getName());
+
+        /*
+         * 課堂練習:
+         * 請大家在lesson1 產生以下 路徑資料夾  lesson1 > homework > traning
+         * 在traning 內放 Employee 類別 
+         * Employee 請用 getter setter 存取 name 
+         * 最後在DemoClass 實作一個 Employee 物件 且印出 getName()
+         */
+
+        lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee("E1");
+        System.out.println(e1.getName());
+
+        Employee e2 = new Employee("E2");
+        System.out.println(e2.getName());
     }
 
 }
