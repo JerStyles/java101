@@ -1,3 +1,4 @@
+package lesson1;
 public class Bank {
     private String account;
     private int balance1 = 0;

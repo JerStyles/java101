@@ -1,3 +1,4 @@
+package lesson1;
 public class Area {
     public void cal(int buttom, int height) {
         if(buttom == 0 || height == 0) {

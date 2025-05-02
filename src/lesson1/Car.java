@@ -1,3 +1,4 @@
+package lesson1;
 public class Car {
     public String name;
     public String color;

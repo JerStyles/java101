@@ -1,9 +1,10 @@
-package lesson1;
-public class Student {
+package basic;
+
+public class Person {
     private String name;
     private int score;
 
-    public Student(String name, int inputScore) {
+    public Person(String name, int inputScore) {
         this.setName(name);
         this.setScore(inputScore);
     }
