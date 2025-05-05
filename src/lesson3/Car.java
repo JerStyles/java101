@@ -9,4 +9,8 @@ public class Car {
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
+
+    public void wiper() {
+        System.out.println("Added wiper");
+    }
 }
