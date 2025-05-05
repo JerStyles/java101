@@ -1,5 +1,8 @@
 package lesson1;
 public class Bank {
+    /*
+     * private(私有) 只能在此類別作使用
+     */
     private String account;
     private int balance1 = 0;
 
@@ -8,26 +11,22 @@ public class Bank {
         this.balance1 = inputBalance;
     }
 
-    public void showBalance() {
-        System.out.println(this.account + " balance: " + this.balance1);
-    }
-
     public String getAccount() {
-        return this.account;
+        return account;
     }
 
-    public void setAccount(String inputAccount, String newAccount) {
-        if(inputAccount != this.account) {
-            System.out.println("您的帳號輸入錯誤,無法繼續執行此更改");
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public int getBalance1(String account) {
+        if(account != this.account) {
+            System.out.println("您的帳號輸入錯誤,無法顯示餘額");
+            return 0;
         } else {
-            this.account = newAccount;
+            return this.balance1;
         }
         
-    }
-
-    // 想像情境: 回傳餘額
-    public int getBalance1() {
-        return this.balance1;
     }
 
     // 想像情境: 存錢(deposit)/提款(withdraw)
@@ -54,4 +53,9 @@ public class Bank {
             }
         }
     }
+
+    public void showBalance() {
+        System.out.println(this.account + " balance: " + this.balance1);
+    }
+
 }
