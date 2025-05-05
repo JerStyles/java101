@@ -1,5 +1,8 @@
 package lesson2;
 
+import lesson2.area.*;
+import lesson2.basic2.*;
+
 public class Demo {
     public static void main(String[] args) {
         Animal a1 = new Animal();
@@ -8,7 +11,6 @@ public class Demo {
         Dog d1 = new Dog();
         d1.speak();
         d1.bark();
-
 
         /*
          * 課堂練習
@@ -20,6 +22,10 @@ public class Demo {
         Cat c1 = new Cat();
         c1.speak();
         c1.mia();
+
+        Test1 test1 = new Test1();
+        lesson2.area.Test2 test2 = new lesson2.area.Test2();
+        Test3 test3 = new Test3();
 
     }
 }

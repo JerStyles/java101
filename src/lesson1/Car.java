@@ -1,4 +1,5 @@
 package lesson1;
+
 public class Car {
     public String name;
     public String color;
@@ -7,9 +8,9 @@ public class Car {
      * 建構子(跟類別同名稱的方法)
      * 初始化物件的屬性
      */
-    public Car(String inputName, String inputColor) {
-        this.name  = inputName;
-        this.color = inputColor;
+    public Car(String name, String color) {
+        this.name = name;
+        this.color = color;
     }
 
     public void showCarInfo() {
