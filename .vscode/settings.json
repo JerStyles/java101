@@ -3,20 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ],
-    "java.autobuild.enabled": true,
-    "java.configuration.runtimes": [
-      {
-        "name": "JavaSE-17",
-        "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.15.6-hotspot",  // Replace with your actual JDK path
-        "default": true
-      }
-    ],
-    "auto-run-command.tasks": [
-      {
-        "match": ".*", 
-        "task": "clean-java"
-      }
     ]
 }
   

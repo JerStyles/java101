@@ -1,16 +1,4 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "clean-java",
-        "type": "shell",
-        "command": "./gradlew",
-        "args": ["clean"],
-        "runOptions": {
-          "runOn": "folderOpen"
-        },
-        "problemMatcher": []
-      }
-    ]
-  }
-  
+
+}
+
