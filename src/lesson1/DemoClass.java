@@ -126,12 +126,13 @@ public class DemoClass {
          * 分別產出 圓形的面積計算 三角形面積計算 長方形面積計算
          */
 
-        // Area a1 = new Area();
-        // a1.cal(9);
-        // a1.cal(5, 10);
-        // a1.cal("長", 3, 2);
-        // a1.cal("正", 3, 3);
-
+        Area a1 = new Area();
+        a1.cal(9);
+        a1.cal(8.0);
+        a1.cal(5, 10);
+        a1.cal("長", 3, 2);
+        a1.cal("正", 3, 3);
+        a1.cal();
 
         /*
          * package 呼叫
