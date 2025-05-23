@@ -22,8 +22,25 @@ public class Area {
         if(r == 0) {
             System.out.println("半徑不能為0");
         } else {
-            System.out.println("圓面積為:" + (r * r * 3.14));
+            System.out.println("r為int的圓面積為:" + (r * r * 3.14));
         }
 
     }
+
+    public void cal() {
+        System.out.println("無任何面積計算");
+    }
+
+    public void cal(double r) {
+        if(r == 0) {
+            System.out.println("半徑不能為0");
+        } else {
+            System.out.println("r為double的圓面積為:" + (r * r * 3.14));
+        }
+
+    }
+
+
+
+
 }
